@@ -32,3 +32,35 @@ header > div{
 .fs08{
     font-size: 0.8em;
 }
+
+main{
+    background-color: black;
+    padding: 50px;
+    color: white;
+}
+
+main > div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cardsContainer{
+    width: 19.5%;
+    margin: 5px 0;
+    position: relative;
+}
+
+.cardsContainer > img{
+    width: 100%;
+    display: block;
+}
+
+.cardsContainer > div{
+    background-color: rgba(75,75,75,127);
+    display: inline-block;
+    padding: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}

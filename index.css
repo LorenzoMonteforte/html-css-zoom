@@ -1,3 +1,4 @@
+/* Generale */
 *{
     margin: 0;
     padding: 0;
@@ -5,8 +6,32 @@
     font-family: 'Inclusive Sans', sans-serif;
 }
 
+.rotate45{
+    rotate: 45deg;
+}
+
+.fs08{
+    font-size: 0.8em;
+}
+
+.fs1_2{
+    font-size: 1.2em;
+}
+
+.marginTop5{
+    margin-top: 5px;
+}
+
+.green{
+    color: green;
+}
+
+#centrale{
+    margin: 0;
+}
+/* Header */
 header{
-    height: 100px;
+    height: 75px;
     background-color: black;
     color: white;
     display: flex;
@@ -20,23 +45,17 @@ header{
     border-radius: 5px;
 }
 
-.rotate45{
-    rotate: 45deg;
-}
-
 header > div{
     margin-top: 5px;
     margin-right: 5px;
 }
-
-.fs08{
-    font-size: 0.8em;
-}
-
+/* Main */
 main{
     background-color: black;
     padding: 50px;
     color: white;
+    height: calc(100vh - 150px);
+    overflow: auto;
 }
 
 main > div{
@@ -63,4 +82,55 @@ main > div{
     position: absolute;
     left: 0;
     bottom: 0;
+}
+/* Footer */
+footer{
+    height: 75px;
+    background-color: rgba(34,34,34,255);
+    display: flex;
+    color: white;
+}
+
+.section1_3{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section2{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sx{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconContainer{
+    display: flex;
+    margin-left: 25px;
+}
+
+.dx{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.divContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#end{
+    color: red;
+    height: 100%;
+    background-color: rgba(75,75,75,255);
+    padding: 0 5px;
 }
